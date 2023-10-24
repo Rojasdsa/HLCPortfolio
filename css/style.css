@@ -1,7 +1,11 @@
+/* NAVBAR */
 .nav-atributos {
     background-color:darkred;
+    font-weight: bold;
 }
 
 .nav-logo {
     width: 5%;
+    border-radius: 100%;
 }
+
