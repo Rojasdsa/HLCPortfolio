@@ -1,13 +1,17 @@
-.circle{
+.circle {
+    display:block;
+    width:450px;
     height: 450px;
-    width: 450px;
-    background: #E3992A;
     border-radius: 50%;
+    text-align: center;
+    background: #E3992A;
 }
 
-.foto-portada{
-    width: 50%;
+.foto-portada {
+    display: inline-block;
+    width: 300px;
     height: auto;
+    padding: 5rem;
 }
 
 /* Ellipse 5 */
@@ -18,4 +22,3 @@ height: 450px;
 left: 415px;
 top: 135px;
  */
-
