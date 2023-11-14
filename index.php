@@ -11,6 +11,9 @@
 </head>
 
 <body>
-<h1>Hello-Bootstrap</h1>
+<div class="container-fluid">
+<img src="assets/img/avatar-foto.JPG">
+<h1>Desarrollador Web</h1>
+</div>
 </body>
 </html>
