@@ -12,8 +12,8 @@
 </head>
 
 <body>
-    <div class="container-fluid circle">
-        <img class="foto-portada" src="assets/img/avatar-foto.JPG">
+    <div class="container-fluid text-center">
+        <img class="foto-portada" src="assets/img/avatar-foto-square.png">
         <h1>Desarrollador Web</h1>
     </div>
 </body>
