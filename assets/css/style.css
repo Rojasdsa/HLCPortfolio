@@ -7,11 +7,8 @@
     background: #E3992A;
 }
 
-/* Ellipse 5 */
-
-/* position: absolute;
-width: 450px;
-height: 450px;
-left: 415px;
-top: 135px;
- */
+.barra-portada {
+    width: 1280px;
+    height: 50px;
+    background-color: #E3992A;
+}
