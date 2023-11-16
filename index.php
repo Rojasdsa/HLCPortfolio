@@ -12,13 +12,19 @@
 </head>
 
 <body>
-    <div class="container-fluid text-center">
-
+    <div class="container-fluid text-center pack-portada">
+        
+        <div class="barra-portada">
+            <div>
+                <h1 class="texto-barra-portada">
+                    <p>DESARROLLADOR </p>
+                    <p>WEB</p></h1>
+            </div>
+        </div>
         <div><img class="foto-portada" src="assets/img/avatar-foto-square.png"></div>
 
-        <div class="barra-portada"></div>
 
-        <h1>Desarrollador Web</h1>
+        
     </div>
 </body>
 
