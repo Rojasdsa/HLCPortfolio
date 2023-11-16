@@ -14,10 +14,10 @@
 <body>
     <div class="container-fluid text-center">
 
-        <img class="foto-portada" src="assets/img/avatar-foto-square.png">
-        
+        <div><img class="foto-portada" src="assets/img/avatar-foto-square.png"></div>
+
         <div class="barra-portada"></div>
-        
+
         <h1>Desarrollador Web</h1>
     </div>
 </body>
