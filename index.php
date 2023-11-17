@@ -13,18 +13,14 @@
 
 <body>
     <div class="container-fluid text-center pack-portada">
-        
+
         <div class="barra-portada">
-            <div>
-                <h1 class="texto-barra-portada">
-                    <p>DESARROLLADOR </p>
-                    <p>WEB</p></h1>
+            <div class="text-container texto-barra-portada">
+                <h1>DESARROLLADOR</h1>
+                <h1>WEB</h1>
             </div>
         </div>
         <div><img class="foto-portada" src="assets/img/avatar-foto-square.png"></div>
-
-
-        
     </div>
 </body>
 

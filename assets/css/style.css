@@ -1,3 +1,8 @@
+body {
+    background-color: rgb(130, 8, 8);
+}
+
+/* BLOQUE 1 - PRESENTACIÓN */
 .pack-portada {
     display: flex;
     justify-content: center;
@@ -6,7 +11,6 @@
     width: 100vw;
     height: auto;
     margin-top: 5em;
-
 }
 
 .barra-portada {
@@ -15,18 +19,24 @@
     width: 100%;
     height: 75px;
     background-color: #E3992A;
+    background-image: linear-gradient(#ff8a00, white);
+    box-shadow: 0 0 15px rgb(255, 255, 255);
     position: absolute;
     z-index: 1;
+    border: 3px black solid;
 }
 
 .foto-portada {
     width: 400px;
     height: auto;
     background-color: #E3992A;
+    background-image: linear-gradient(#ff8a00, white);
+    box-shadow: 0 0 15px rgb(255, 255, 255);
     border-radius: 50%;
     position: relative;
     z-index: 2;
     padding: 0.75em;
+    border: 3px black solid;
 }
 
 .texto-barra-portada {
@@ -34,10 +44,47 @@
     display: flex;
     justify-content: space-between;
     z-index: 2;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
-.texto-barra-portada p{
+.texto-barra-portada h1 {
     margin: 0;
-    margin-left: 50px;
-    margin-right: 50px;
+    width: 33%;
 }
+
+/* BLOQUE 1.2 - LETRAS CON ANIMACIÓN*/
+.text-container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+  }
+  
+  .text-container h1{
+    margin: 0;
+    font-size: 3rem;
+    color: rgba(225,225,225, .01);
+    background-image: url("../img/bg-3.jpeg");
+    background-repeat: repeat;
+    -webkit-background-clip:text;
+    animation: animate 60s ease-in-out infinite;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 900;
+  }
+  
+    @keyframes animate {
+      0%, 100% {
+        background-position: left top;
+      }
+      25%{
+        background-position: right bottom;
+       }
+      50% {
+        background-position: left bottom;
+      }
+      75% {
+        background-position: right top;
+      }   
+  }
